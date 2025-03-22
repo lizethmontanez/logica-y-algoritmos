@@ -27,3 +27,12 @@ pElements.forEach((element) => {
     miDiv.insertAdjacentHTML("beforeend", element);
 });
 
+const options = {
+    isEnables: true,
+    time: 15,
+    code: "Approved",
+}
+
+const {isEnables, time, code} = options;
+console.log(isEnables,time,code);
+
